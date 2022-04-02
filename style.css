@@ -170,6 +170,9 @@ main {
 }
 
 @media (max-height: 900px){
+  body{
+    height: 95%;
+  }
   .player {
     flex: 50%;
     padding: 1rem;
@@ -207,12 +210,18 @@ main {
     top: 59rem;
   }
   .btn{
+    font-size: 14px;
+  }
+  .current{
+    padding: 1rem;
+  }
+  .current-label{
     font-size: 15px;
   }
 }
 @media (max-height: 800px){
   body{
-    height: 100%;
+    height: 95%;
   }
   .player {
     flex: 50%;
@@ -253,7 +262,7 @@ main {
     top: 52rem;
   }
   .btn{
-    font-size: 15px;
+    font-size: 14px;
   }
   .current{
     padding: 1rem;
